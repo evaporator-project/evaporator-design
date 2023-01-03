@@ -8,7 +8,11 @@ function resolve(str: string) {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react({
+      jsxImportSource: '@emotion/react',
+    })
+  ],
   build: {
     // 打包输出的目录
     outDir: './lib',

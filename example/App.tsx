@@ -11,7 +11,7 @@ function App() {
       className="App"
       style={{ backgroundColor: 'black', width: '100vw', height: '100vh' }}
     >
-        <Button>你好</Button>
+        <Button type={'primary'} className={'btn'}>你好</Button>
     </div>
   );
 }
